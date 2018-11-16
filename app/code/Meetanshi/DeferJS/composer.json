@@ -1,0 +1,30 @@
+{
+  "name": "meetanshi/magento-2-defer-parsing-javascript",
+  "description": "Magento 2 DeferJS",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Meetanshi\\DeferJS\\": ""
+    }
+  },
+  "support": {
+    "email": "support@meetanshi.com"
+  },
+  "authors": [
+    {
+      "name": "Jignesh Parmar",
+      "email": "support@meetanshi.com",
+      "homepage": "https://meetanshi.com"
+    }
+  ]
+}

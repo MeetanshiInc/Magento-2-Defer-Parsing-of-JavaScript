@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="meetanshi" translate="label" sortOrder="100">
+            <label>
+                <![CDATA[<img src="https://meetanshi.com/media/logo.png" alt="Meetanshi" height="20" style="vertical-align:middle;"/>]]>
+            </label>
+        </tab>
+        <section id="deferjs" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Defer Parsing Of JavaScript</label>
+            <tab>meetanshi</tab>
+            <resource>Meetanshi_DeferJS::config_deferjs</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Configuration</label>
+                <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Defer Parsing Of JavaScript</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
