@@ -9,7 +9,7 @@ Javascript disrupts site speed. It is executed before the HTML loads hence reduc
 
 With the ***Magento 2 Defer Parsing of Javascript*** extension, improve the user experience and boost sales at Magento 2 store!
 
-##Benefits of Meetanshi's Magento 2 Defer Parsing of JavaScript
+## Benefits of Meetanshi's Magento 2 Defer Parsing of JavaScript
 
 ● Improve site speed with effective defer parsing of Javascript for Magento 2
 
