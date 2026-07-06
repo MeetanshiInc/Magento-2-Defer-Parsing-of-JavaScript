@@ -28,3 +28,6 @@ With the ***Magento 2 Defer Parsing of Javascript*** extension, improve the user
 ● Increased rendering time improves the Google Page Speed score.
 
  For more information, visit ***[https://meetanshi.com/magento-2-defer-parsing-javascript.html](https://meetanshi.com/magento-2-defer-parsing-javascript.html)***
+
+ Need help with installation and configuration? Refer to the User Guide:
+***[https://meetanshi.com/docs/magento-2/defer-parsing-of-javascript/](https://meetanshi.com/docs/magento-2/defer-parsing-of-javascript/)***
